@@ -1,0 +1,71 @@
+body{
+    background-image: url('profile.jpg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    height: 100%;
+    
+    
+}
+
+table,td , th{
+    margin-top: 5px;
+    border: 1px solid rgb(112, 66, 2);
+    text-align: center;
+    color: #faa700;
+    background-color: #022d3b;
+    height: 45px;
+}
+th{
+    height: 35px;
+}
+table{
+    width: 100%;
+}
+.summaryTable{
+    width: 50%;
+}
+h3,h4{
+    text-align: center;
+}
+select{
+    background-attachment: fixed;
+    background-color:rgb(24, 15, 1) ;
+    color: rgb(255, 179, 0);
+    border:2px solid rgb(46, 29, 3) ;
+    border-radius: 10px 0 10px 0;
+    margin-right: 10px;
+}
+
+
+
+option{
+    background-color:rgb(24, 15, 1) ;
+    color: rgb(255, 179, 0);
+}
+
+.tripResult{
+    visibility: hidden;
+    
+}
+.budgetTable{
+    visibility: hidden;
+}
+button{
+	margin-top: 20px;
+	color: #703d02;
+	border: solid 1px;
+	border-color: #755267;
+	border-radius: 20px;
+	padding: 3px 10px 3px 10px;
+	background-color: rgb(219, 155, 7);
+}
+
+div{
+    margin-top: 10px;
+}
+summary{
+    margin-top: 15px;
+}

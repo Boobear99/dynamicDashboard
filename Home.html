@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="Home.css">
+    </head>
+
+    <body>
+        <h3>HELLO! WELCOME</h3>
+        <p>We are able to calculate your budget</p>
+            <select id="mainSelect" >
+            <option selected disabled>Select option</option>
+            <option value="trip">Trip budget</option>
+            <option value="daily">Daily budget</option>
+            <option value="monthly">Monthly budget</option>
+        </select>
+            <button onclick="calculate()">Calculate</button>
+        <div class="trip"></div>
+        <div class="tripResult">
+            <h4>Trip budget planning</h4>
+            <fieldset>
+            <legend>Expected cost</legend>
+            <span>Where you go?</span>
+            <br>
+            <select id="place">
+                <option disabled selected>Select place?</option>
+                <option value="bagan">Bagan</option>
+                <option vlaue="chaungThar">Chaung Thar Beach</option>
+                <option value="ngweSaung">Ngwe Saung Beach</option>
+            </select>
+            <button onclick="showBudget()">Show Budget</button>
+            <div class="showResult"></div>
+        </div>
+        <div class="budgetTable">
+            <br>
+            <table> 
+            <strong>For One person</strong>
+            <tr>
+                <th>Budget lv</th>
+                <th>Bus cars charges</th>   
+                <th>Hotel chargers</th>
+                <th>Food Chargers</th>
+                <th>Other chargers</th>
+            </tr>
+            <tr>
+                <td>Save budget</td>
+                <td>Ks-15,000</td>
+                <td>Ks-100,000</td>
+                <td>Ks-50,000</td>
+                <td>Ks-50,000</td>
+            </tr>
+            
+
+
+            </table>
+            <summary>Summary budget</summary>
+            <table class="summaryTable">
+            <tr>
+                <th>Total</th>
+                <th>amount</th>
+            </tr>    
+            <tr>
+                <td>Budget</td>
+                
+                <td class="budgetTotal"></td>
+            </tr>
+            </table>
+            </fieldset>
+            
+
+        
+        </div>
+
+        <script src="Home.js" ></script>     
+    </body>
+
+</html>
